@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    
+<body>
+    <div>
+        <h1>Boton numero 1</h1>
+        <button id="boton1" class="botonA" onclick="boton()">Has click aqui</button>
+        <label for="">Numero 1</label><input type="text" id="num1" name="">
+        <label for="">Numero 2</label><input type="text" id="num2" name="">
+    </div>
+
+    <div>
+        <h1>Boton numero 2</h1>
+        <div id="parrafo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa magni doloribus porro consectetur, deserunt minus assumenda quod sunt, fuga id ad vel alias recusandae explicabo vero sed, ducimus placeat inventore?</p>
+        </div>
+        <button onclick="myFunction()">Esconder</button>
+    </div>
+
+    <div id="seccion3">
+        <h1>Botones 3</h1>
+        <label for="">Boton para cambiar el color de la seccion</label>
+        <button onclick="cambiarColor()">Rojo</button>
+    </div>
+
+    <div>
+        <h1>Blur</h1>
+        <label for=""></label>Nombre: <input onblur="mayus()" type="text" name="" id="nombre" autofocus>
+        <label for=""></label>Apellido: <input onblur="" type="text" name="" id="apellido">
+    </div>
+
+    <div>
+        <h1>Key</h1>
+        <label for="">Texto: </label><input onkeydown="mayus2()" type="text" name="" id="texto">
+    </div>
+
+    <div>
+        <h1>Crear</h1>
+        <button onclick="crearBoton()" >Crear otro boton</button>
+    </div>
+
+    <div>
+        <h1>Pagina</h1>
+        <label for="">Revisar si la pagina esta activa</label>
+        <div id="test"></div>
+    </div>
+
+    <footer>        
+        <script type="text/javascript" src="javascript.js"></script>
+    </footer>
+</body>
+</html>
